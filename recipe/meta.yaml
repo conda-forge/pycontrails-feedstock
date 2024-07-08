@@ -38,7 +38,6 @@ requirements:
     - fsspec >=2022.7
     - gcsfs >=2022.7
     - google-cloud-storage >=2.1
-    - h5netcdf >=1.2
     - ipywidgets >=7.6
     - jupyterlab >=2.2
     - lxml >=5.1.0
@@ -52,9 +51,7 @@ requirements:
     - pyproj >=3.5
     - requests >=2.25
     - scikit-image >=0.18
-    - scikit-learn >=0.23
     - scipy >=1.10
-    - seaborn >=0.11
     - shapely >=2.0
     - tqdm >=4.61
     - xarray >=2022.3
