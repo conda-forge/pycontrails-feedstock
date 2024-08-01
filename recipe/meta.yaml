@@ -43,7 +43,7 @@ requirements:
     - lxml >=5.1.0
     - matplotlib-base >=3.3
     - netcdf4 >=1.6
-    - numpy <2.0.0
+    - numpy >=1.22
     - opencv >=4.5
     - overrides >=6.1
     - pandas >=2.2
