@@ -40,7 +40,6 @@ requirements:
     - google-cloud-storage >=2.1
     - ipywidgets >=7.6
     - jupyterlab >=2.2
-    - lxml >=5.1.0
     - matplotlib-base >=3.3
     - netcdf4 >=1.6
     - numpy >=1.22
