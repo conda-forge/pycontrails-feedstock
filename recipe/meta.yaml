@@ -37,7 +37,7 @@ requirements:
     - cdsapi >=0.4
     - cfgrib >=0.9
     - dask-core >=2022.3
-    - eccodes >=1.4
+    - eccodes >=2.38
     - ecmwf-api-client >=1.6
     - fsspec >=2022.7
     - gcsfs >=2022.7
@@ -48,7 +48,6 @@ requirements:
     - netcdf4 >=1.6
     - numpy >=1.22
     - opencv >=4.5
-    - overrides >=6.1
     - pandas >=2.2
     - platformdirs >=3.0
     - pyproj >=3.5
@@ -57,6 +56,7 @@ requirements:
     - scipy >=1.10
     - shapely >=2.0
     - tqdm >=4.61
+    - typing-extensions>=4.5
     - xarray >=2022.3
     - zarr >=2.12
 
