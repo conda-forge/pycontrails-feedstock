@@ -1,5 +1,5 @@
 {% set name = "pycontrails" %}
-{% set version = "0.54.1" %}
+{% set version = "0.54.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pycontrails-{{ version }}.tar.gz
-  sha256: 125d96502c8a917591e53c214206d9505f151f0c0fa73a2a5767d1dd884bcc56
+  sha256: 6de9a8fc88162be405230a6a6eb62d157d221077d158ec83b052f065c7042219
 
 build:
   skip: true  # [py<310]
