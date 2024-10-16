@@ -56,7 +56,7 @@ requirements:
     - scipy >=1.10
     - shapely >=2.0
     - tqdm >=4.61
-    - typing-extensions>=4.5
+    - typing-extensions >=4.5
     - xarray >=2022.3
     - zarr >=2.12
 
