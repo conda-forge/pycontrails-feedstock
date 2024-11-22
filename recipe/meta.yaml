@@ -24,12 +24,11 @@ requirements:
     - {{ stdlib('c') }}
   host:
     - python
-    - setuptools
-    - setuptools-scm
-    - wheel
-    - cython
-    - numpy >=2.0.0
     - pip
+    - cython >=3
+    - numpy >=2.0.0
+    - setuptools >=64
+    - setuptools-scm >=8
   run:
     - python
     - boto3 >=1.20
