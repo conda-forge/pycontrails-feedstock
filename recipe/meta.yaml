@@ -47,7 +47,7 @@ requirements:
     - netcdf4 >=1.6
     - numpy >=1.22
     - opencv >=4.5
-    - pandas >=2.2
+    - pandas >=2.0
     - platformdirs >=3.0
     - pyproj >=3.5
     - requests >=2.25
