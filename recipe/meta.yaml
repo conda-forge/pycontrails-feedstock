@@ -27,7 +27,7 @@ requirements:
     - pip
     - cython >=3
     - numpy >=2.0.0
-    - setuptools >=64
+    - setuptools >=77
     - setuptools-scm >=8
   run:
     - python
