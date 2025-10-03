@@ -10,7 +10,7 @@ source:
   sha256: 9e0c6712501234261be45589481b9d46fa0ea0dd7cada52175409887475444a7
 
 build:
-  skip: true  # [py<310]
+  skip: true  # [py<311]
   script: {{ PYTHON }} -m pip install . -vv
   number: 0
 
@@ -56,7 +56,7 @@ requirements:
     - requests >=2.25
     - s3fs >=2022.7
     - scikit-image >=0.18
-    - scipy >=1.10
+    - scipy >=1.12
     - shapely >=2.0
     - tqdm >=4.61
     - typing-extensions >=4.5
