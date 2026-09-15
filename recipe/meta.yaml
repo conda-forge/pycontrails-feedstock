@@ -18,14 +18,16 @@ requirements:
   build:
     - python                                 # [build_platform != target_platform]
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
-    - cython                                 # [build_platform != target_platform]
+    - cython <3.3                            # [build_platform != target_platform and py==311]
+    - cython                                 # [build_platform != target_platform and py!=311]
     - numpy >=2.0.0                          # [build_platform != target_platform]
     - {{ compiler('c') }}
     - {{ stdlib('c') }}
   host:
     - python
     - pip
-    - cython >=3
+    - cython >=3,<3.3  # [py==311]
+    - cython >=3       # [py!=311]
     - numpy >=2.0.0
     - setuptools >=77
     - setuptools-scm >=8
