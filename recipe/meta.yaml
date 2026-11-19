@@ -63,12 +63,16 @@ requirements:
     - zarr >=2.12
 
 test:
+  source_files:
+    - tests
+  requires:
+    - pip
+    - pytest
   imports:
     - pycontrails
   commands:
     - pip check
-  requires:
-    - pip
+    - pytest tests/unit -m "not network"
 
 about:
   home: https://py.contrails.org
